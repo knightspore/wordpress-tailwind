@@ -21040,6 +21040,45 @@ video {
           animation: bounce 1s infinite;
 }
 
+/* Layout */
+
+main {
+  flex-grow: 1;
+  padding: 3rem;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 1.875rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+/* Menu */
+
+.menu-item {
+  --text-opacity: 1;
+  color: #718096;
+  color: rgba(113, 128, 150, var(--text-opacity));
+}
+
+.current-menu-item a {
+  --text-opacity: 1;
+  color: #1a202c;
+  color: rgba(26, 32, 44, var(--text-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

@@ -16,3 +16,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Layout */
+main {@apply flex-grow p-12;}
+
+/* Typography */
+h1 {@apply text-3xl;}
+h2 {@apply text-2xl;}
+h3 {@apply text-xl;}
+h4 {@apply text-lg;}
+
+/* Menu */
+.menu-item {
+	@apply text-gray-600;
+}
+.current-menu-item a {
+	@apply text-gray-900;
+}

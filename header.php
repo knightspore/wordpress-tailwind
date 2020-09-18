@@ -23,28 +23,30 @@
         </script>
 
 	</head>
-	<body class="bg-gray-50 text-gray-900" <?php body_class(); ?>>
-
-		<!-- wrapper -->
-		<div class="wrapper">
+	<body class="flex flex-col min-h-screen bg-gray-100 text-gray-900" <?php body_class(); ?>>
 
 			<!-- header -->
-			<header class="header clear" role="banner">
+			<header class="flex gap-x-4 px-8 py-6 bg-white shadow-sm" role="banner">
 
 					<!-- logo -->
 					<div class="logo">
 						<a href="<?php echo home_url(); ?>">
 							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/gravatar.jpg" alt="Logo" class="w-12 my-auto">
 						</a>
 					</div>
 					<!-- /logo -->
 
 					<!-- nav -->
-					<nav class="nav" role="navigation">
+					<nav class="flex-1 text-right my-auto" role="navigation">
 						<?php html5blank_nav(); ?>
+						
 					</nav>
 					<!-- /nav -->
-
+					
+					<div class="my-auto">
+					<?php get_template_part('searchform'); ?>
+					</div>
+					
 			</header>
 			<!-- /header -->

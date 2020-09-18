@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-	<main role="main">
+	<main role="main" class="flex">
 	<!-- section -->
-	<section>
+	<section class="flex-1">
 
 	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
@@ -60,8 +60,10 @@
 
 	</section>
 	<!-- /section -->
+	<section>
+		<?php get_sidebar(); ?>
+	</section>
 	</main>
 
-<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

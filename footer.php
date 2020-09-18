@@ -1,5 +1,5 @@
 			<!-- footer -->
-			<footer class="footer" role="contentinfo">
+			<footer class="text-center py-4 px-8 bg-white" role="contentinfo">
 
 				<!-- copyright -->
 				<p class="copyright">
@@ -7,14 +7,11 @@
 					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
 				</p>
 				<!-- /copyright -->
+				<?php wp_footer(); ?>
 
 			</footer>
 			<!-- /footer -->
 
-		</div>
-		<!-- /wrapper -->
-
-		<?php wp_footer(); ?>
 
 		<!-- analytics -->
 		<script>
