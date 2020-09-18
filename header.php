@@ -23,7 +23,7 @@
         </script>
 
 	</head>
-	<body class="bg-gray-100 text-gray-900" <?php body_class(); ?>>
+	<body class="bg-gray-50 text-gray-900" <?php body_class(); ?>>
 
 		<!-- wrapper -->
 		<div class="wrapper">
