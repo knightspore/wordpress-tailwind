@@ -22,4 +22,4 @@ You can alternately run `dev` to generate readable assets, or `prod` to run a pr
 
 ## Usage
 
-This is a blank copy of HTML5Blank with TailwindCSS installed, nothing more. Your assets build from `./assets` to `./js/scripts.js` and './style.css'
+This is a blank copy of HTML5Blank with TailwindCSS installed, nothing more. Your assets build from `./assets` to `./js/scripts.js` and `./style.css`
