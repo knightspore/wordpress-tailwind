@@ -2,7 +2,7 @@
 
 An extension of [HTML5Blank](https://github.com/toddmotto/html5blank) using TailwindCSS with Laravel Mix.
 
-On my blog you can read about [how to create a blank WordPress + Tailwind template](https://ciaran.co.za/tailwind-css-wordpress-theme-tutorial/). 
+On my blog you can read about [how to create a TailwindCSS Wordpress Theme](https://ciaran.co.za/tailwind-css-wordpress-theme-tutorial/). 
 
 ## Installation
 
