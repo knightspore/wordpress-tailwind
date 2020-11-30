@@ -18,6 +18,8 @@
     "vue-template-compiler": "^2.6.12"
   },
   "dependencies": {
-    "tailwindcss": "^1.8.10"
+    "autoprefixer": "^9",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }

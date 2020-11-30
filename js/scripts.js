@@ -119,8 +119,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/knightspore/Desktop/dev/wptail/wp-content/themes/html5blank-stable/assets/main.js */"./assets/main.js");
-module.exports = __webpack_require__(/*! /home/knightspore/Desktop/dev/wptail/wp-content/themes/html5blank-stable/assets/style.css */"./assets/style.css");
+__webpack_require__(/*! /home/c/Desktop/dev/wordpress-tailwind/assets/main.js */"./assets/main.js");
+module.exports = __webpack_require__(/*! /home/c/Desktop/dev/wordpress-tailwind/assets/style.css */"./assets/style.css");
 
 
 /***/ })
