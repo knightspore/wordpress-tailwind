@@ -1,11 +1,8 @@
 module.exports = {
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-  },
   purge: [
     './**/*.php',
   ],
+  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
   },
