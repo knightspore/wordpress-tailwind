@@ -1,8 +1,7 @@
 module.exports = {
   purge: [
-    './**/*.php',
+    './**/*.{php|js|html',
   ],
-  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
   },
